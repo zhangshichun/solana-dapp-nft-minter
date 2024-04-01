@@ -93,7 +93,7 @@ If submitting a feature, please reference the project structure shown above and 
 
 To choose a task or make your own, do the following:
 
-1. [Add an issue](https://github.com/solana-dev-adv/solana-dapp-next/issues/new) for the task and assign it to yourself or comment on the issue
+1. [Add an issue](https://github.com/solana-labs/dapp-scaffold/issues/new) for the task and assign it to yourself or comment on the issue
 2. Make a draft PR referencing the issue.
 
 The general flow for making a contribution:
