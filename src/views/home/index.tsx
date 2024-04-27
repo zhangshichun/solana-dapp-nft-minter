@@ -53,8 +53,8 @@ export const HomeView: FC = ({}) => {
           {!wallet.connected && (
             <>
               <h4 className="md:w-full text-2xl text-slate-300 my-2">
-                STEP 1: Click on top right corner "Connect Wallet" <br /> to
-                connect your wallet.
+                STEP 1: Click on top right corner &rdquo;Connect Wallet&rdquo;{" "}
+                <br /> to connect your wallet.
               </h4>
             </>
           )}
@@ -75,7 +75,7 @@ export const HomeView: FC = ({}) => {
                 <RequestAirdrop />
               </div>
               <div>
-                STEP 4: Click "Start Mint" button to mint your NFT.
+                STEP 4: Click &rdquo;Start Mint&rdquo; button to mint your NFT.
                 <Minter />
               </div>
             </h4>
