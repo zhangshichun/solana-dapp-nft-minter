@@ -39,7 +39,7 @@ const FileURLSelector = (props, ref) => {
           id="mode-upload"
           onChange={onRadioChange}
         />
-        <label for="mode-upload">Upload a File</label>
+        <label htmlFor="mode-upload">Upload a File</label>
       </div>
       <div>
         <input
@@ -50,7 +50,7 @@ const FileURLSelector = (props, ref) => {
           id="mode-input"
           onChange={onRadioChange}
         />
-        <label for="mode-input">Input the URL</label>
+        <label htmlFor="mode-input">Input the URL</label>
       </div>
       {mode === URLGetMode.UPLOAD && <FileUploader />}
       {mode === URLGetMode.INPUT && <URLInput onChange={setUrl} value={url} />}
